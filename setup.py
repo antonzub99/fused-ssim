@@ -9,6 +9,7 @@ setup(
             name="fused_ssim_cuda",
             sources=[
             "ssim.cu",
+            "ssim_bfloat.cu",
             "ext.cpp"])
         ],
     cmdclass={
