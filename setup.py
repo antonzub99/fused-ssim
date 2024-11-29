@@ -10,6 +10,7 @@ setup(
             sources=[
             "ssim.cu",
             "ssim_bfloat.cu",
+            "ssim_half.cu",
             "ext.cpp"])
         ],
     cmdclass={
