@@ -42,6 +42,9 @@ with torch.no_grad():
 - Images must be normalized to range `[0, 1]`.
 - Standard `11x11` convolutions supported.
 
+## TODO:
+- [] Replace separate kernels for each floating-point type with a single type-generic template
+
 ## Performance
 This implementation is 5-8x faster than the previous fastest (to the best of my knowledge) differentiable SSIM implementation [pytorch-mssim](https://github.com/VainF/pytorch-msssim).
 
